@@ -1,4 +1,4 @@
-# 📊 basic_math
+# 📊 math_operations_kit(basic_maths)
 
 A Node.js module providing a comprehensive set of basic and advanced mathematical functions, including arithmetic, trigonometry, logarithmic operations, matrix operations, and more.
 
