@@ -1,6 +1,6 @@
 {
   "name": "math_operations_kit",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A module providing basic and advanced mathematical functions.",
   "main": "test.js",
   "scripts": {
