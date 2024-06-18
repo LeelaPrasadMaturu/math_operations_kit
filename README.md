@@ -1,8 +1,8 @@
-# basic_math
+# 📊 basic_math
 
 A Node.js module providing a comprehensive set of basic and advanced mathematical functions, including arithmetic, trigonometry, logarithmic operations, matrix operations, and more.
 
-## Features
+##  ✨ Features
 
 - Basic Arithmetic Operations: Addition, Subtraction, Multiplication, Division, Modulus
 - Advanced Arithmetic Operations: Power, Square Root, Absolute Value, Factorial
@@ -12,7 +12,7 @@ A Node.js module providing a comprehensive set of basic and advanced mathematica
 - Additional Functions: GCD, LCM, Prime Check, Fibonacci Sequence, Combination (nCr), Permutation (nPr), Quadratic Equation Solver
 - Matrix Operations: Addition, Multiplication, Transpose
 
-## Installation
+## 📦 Installation
 
 To install the module, run:
 
@@ -20,11 +20,11 @@ To install the module, run:
 npm install basic_math
 ```
 
-## Usage
+## 📚 Usage
 
 Here are some examples of how to use the functions provided by the basic_math module:
 
-# Basic Arithmetic Functions
+# ➕ Basic Arithmetic Functions
 
 ```
 const add = require('basic_math');
@@ -39,7 +39,7 @@ console.log(modulus(10, 3)); // Output: 1
 
 ```
 
-# Advanced Arithmetic Functions
+# 🚀 Advanced Arithmetic Functions
 
 ```
 console.log(power(2, 3)); // Output: 8
@@ -48,7 +48,7 @@ console.log(abs(-5)); // Output: 5
 console.log(factorial(5)); // Output: 120
 ```
 
-# Trigonometric Functions
+# 📐 Trigonometric Functions
 
 ```
 console.log(sine(Math.PI / 2)); // Output: 1
@@ -56,7 +56,7 @@ console.log(cosine(Math.PI)); // Output: -1
 console.log(tangent(Math.PI / 4)); // Output: 1
 ```
 
-# Logarithmic and Exponential Functions
+# 📈 Logarithmic and Exponential Functions
 
 ```
 console.log(math.naturalLog(Math.E)); // Output: 1
@@ -64,7 +64,7 @@ console.log(math.logBase10(100)); // Output: 2
 console.log(math.exponential(1)); // Output: 2.718281828459045
 ```
 
-# Miscellaneous Functions
+# 📊 Miscellaneous Functions
 
 ```
 console.log(math.max(1, 2, 3, 4, 5)); // Output: 5
@@ -77,7 +77,7 @@ console.log(math.variance([1, 2, 3, 4, 5])); // Output: 2
 
 ```
 
-# Additional Functions
+# ⚙️ Additional Functions
 
 ```
 console.log(math.gcd(8, 12)); // Output: 4
@@ -90,7 +90,7 @@ console.log(math.solveQuadratic(1, -3, 2)); // Output: [2, 1]
 
 ```
 
-# Matrix Operations
+# 🧮 Matrix Operations
 
 ```
 const matrix1 = new math.Matrix([[1, 2], [3, 4]]);
@@ -106,12 +106,12 @@ console.log(matrixTranspose.data); // Output: [[1, 3], [2, 4]]
 
 ```
 
-## License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contributing
+## 🤝 Contributing
 Please feel free to use the module and connect with me if you encounter any errors or have suggestions for improvements. You can reach me at [leelaprasad.m22@iiits.in].
 
-## GitHub Repository
+## 🔗 GitHub Repository
 
 Find the source code and contribute on GitHub.
