@@ -2,8 +2,8 @@
   "name": "math_operations_kit",
   "version": "2.0.1",
   "description": "A module providing basic and advanced mathematical functions.",
-  "main": "test.js",
-  "scripts": {
+  "main": "index.js",  
+    "scripts": {
     "test": "node test.js"
   },
   "author": "lokesh",

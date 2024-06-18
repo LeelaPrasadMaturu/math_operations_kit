@@ -31,29 +31,29 @@ const add = require('basic_math');
 ```
 
 ``` sh
-console.log(add(2, 3)); // Output: 5
-console.log(subtract(5, 2)); // Output: 3
-console.log(multiply(4, 3)); // Output: 12
-console.log(divide(10, 2)); // Output: 5
-console.log(modulus(10, 3)); // Output: 1
+console.log(math.add(2, 3)); // Output: 5
+console.log(math.subtract(5, 2)); // Output: 3
+console.log(math.multiply(4, 3)); // Output: 12
+console.log(math.divide(10, 2)); // Output: 5
+console.log(math.modulus(10, 3)); // Output: 1
 
 ```
 
 # 🚀 Advanced Arithmetic Functions
 
 ```
-console.log(power(2, 3)); // Output: 8
-console.log(sqrt(16)); // Output: 4
-console.log(abs(-5)); // Output: 5
-console.log(factorial(5)); // Output: 120
+console.log(math.power(2, 3)); // Output: 8
+console.log(math.sqrt(16)); // Output: 4
+console.log(math.abs(-5)); // Output: 5
+console.log(math.factorial(5)); // Output: 120
 ```
 
 # 📐 Trigonometric Functions
 
 ```
-console.log(sine(Math.PI / 2)); // Output: 1
-console.log(cosine(Math.PI)); // Output: -1
-console.log(tangent(Math.PI / 4)); // Output: 1
+console.log(math.sine(Math.PI / 2)); // Output: 1
+console.log(math.cosine(Math.PI)); // Output: -1
+console.log(math.tangent(Math.PI / 4)); // Output: 1
 ```
 
 # 📈 Logarithmic and Exponential Functions
@@ -88,6 +88,15 @@ console.log(math.combination(5, 2)); // Output: 10
 console.log(math.permutation(5, 2)); // Output: 20
 console.log(math.solveQuadratic(1, -3, 2)); // Output: [2, 1]
 
+```
+
+# Solve Quadratic Equation
+To solve a quadratic equation of the form a(x^2) + bx + c = 0 , you can use the solveQuadratic function:
+```
+const [root1, root2] = math.solveQuadratic(1, -3, 2);
+console.log('Roots of the quadratic equation:');
+console.log(`Root 1: ${root1}`); // Output: 2
+console.log(`Root 2: ${root2}`); // Output: 1
 ```
 
 # 🧮 Matrix Operations
