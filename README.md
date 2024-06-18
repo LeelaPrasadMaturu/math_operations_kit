@@ -1,4 +1,4 @@
-# 📊 math_operations_kit(basic_maths)
+# 📊 math_operations_kit(math_operations_kits)
 
 A Node.js module providing a comprehensive set of basic and advanced mathematical functions, including arithmetic, trigonometry, logarithmic operations, matrix operations, and more.
 
@@ -17,17 +17,34 @@ A Node.js module providing a comprehensive set of basic and advanced mathematica
 To install the module, run:
 
 ```sh
-npm install basic_math
+npm install math_operations_kit
 ```
 
 ## 📚 Usage
 
-Here are some examples of how to use the functions provided by the basic_math module:
+Here are some examples of how to use the functions provided by the math_operations_kit module:
 
 # ➕ Basic Arithmetic Functions
 
+
+# Importing Individual Functions
+You can import individual functions directly from the module:
+``` sh
+const add = require('math_operations_kit/add'); // Importing add function directly
+const sub = require('math_operations_kit/sub');
+const div = require('math_operations_kit/div');
+
+console.log(add(1, 2)); // Expected: 3
+console.log(sub(5, 3)); // Expected: 2
+console.log(div(10, 2)); // Expected: 5
+
 ```
-const add = require('basic_math');
+
+# Importing the Entire Module
+Alternatively, you can import the entire module and access functions through it:
+
+```
+const add = require('math_operations_kit');
 ```
 
 ``` sh
@@ -38,6 +55,11 @@ console.log(math.divide(10, 2)); // Output: 5
 console.log(math.modulus(10, 3)); // Output: 1
 
 ```
+
+<hr>
+## Note on Implementing Individual Functions
+If you prefer, you can also implement individual functions directly from their respective files in the `math_operations_kit` module. Each function file (`add.js`,` sub.js`,` div.js`, etc.) exports a single function, allowing you to import and use them as standalone modules.
+<hr>
 
 # 🚀 Advanced Arithmetic Functions
 
