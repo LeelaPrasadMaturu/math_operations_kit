@@ -1,6 +1,6 @@
 {
   "name": "basic_math",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A module providing basic and advanced mathematical functions.",
   "main": "test.js",
   "scripts": {
