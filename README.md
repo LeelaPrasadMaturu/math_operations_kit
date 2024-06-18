@@ -57,8 +57,10 @@ console.log(math.modulus(10, 3)); // Output: 1
 ```
 
 <hr>
-## Note on Implementing Individual Functions
+<pre>
+<strong> Note on Implementing Individual Functions</strong>
 If you prefer, you can also implement individual functions directly from their respective files in the `math_operations_kit` module. Each function file (`add.js`,` sub.js`,` div.js`, etc.) exports a single function, allowing you to import and use them as standalone modules.
+</pre>
 <hr>
 
 # 🚀 Advanced Arithmetic Functions
