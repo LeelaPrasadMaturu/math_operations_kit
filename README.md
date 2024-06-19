@@ -124,6 +124,10 @@ console.log(`Root 2: ${root2}`); // Output: 1
 ```
 
 # 🧮 Matrix Operations
+```
+const { Matrix } = require('math_operations_kit');
+```
+for matrix applications , you have import this additionally , 
 
 ```
 const matrix1 = new math.Matrix([[1, 2], [3, 4]]);
